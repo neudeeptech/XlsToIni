@@ -4,3 +4,15 @@ This Python based utility helps you to convert your configuration information fr
 firstly you run the iniparser.py file with input and output files like:
 
 python iniParser.py ConfigParameterList1.1.xls XlsToIni.ini
+
+Format of ini file:
+
+Keys (properties):
+
+        name=value
+
+Sections:
+
+        [Group A]
+        desc=description
+        similar for other groups.
